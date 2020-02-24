@@ -62,9 +62,9 @@ if ($conn) {
 
   mysqli_close($conn);
 } else {
-  echo "Database is not available" . PHP_EOL;
-  echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-  echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+  echo "Database is not available" . "<br/>";
+  echo "Debugging errno: " . mysqli_connect_errno() . "<br/>";
+  echo "Debugging error: " . mysqli_connect_error() . "<br/>";
 }
 
 echo "<p><i>";
